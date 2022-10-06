@@ -1,0 +1,15 @@
+.degree
+{
+    font-size: 75px;
+}
+.flexIt
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.temperature,.humadity,.wind,.dewPoint,.pressure,.uvIndex,.visibility,.moonPhase
+{
+    display: flex;
+    justify-content:space-evenly;
+}

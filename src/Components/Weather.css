@@ -1,0 +1,56 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.firstStrip
+{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    border-radius:5px;
+    color: white;
+    text-align: start;
+}
+.strip
+{
+    font-family: sans-serif;
+    top: 50%;
+}
+.blockWeather
+{
+color: white;
+margin-top: 5px;
+background-image: url("https://images.pexels.com/photos/1252873/pexels-photo-1252873.jpeg?cs=srgb&dl=pexels-hristo-fidanov-1252873.jpg&fm=jpg");
+border-radius: 10px;
+}
+.numbers h1
+{
+    font-size:75px;
+}
+.numbers p
+{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.weatherDetail
+{
+    display: flex;
+    justify-content: space-between;
+}
+.wholeDay
+{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+.temp
+{
+color: blue;
+}
+.verticalLine
+{
+    border-right: 2px solid rgba(128, 128, 128, 0.251);
+    max-height: 150px;
+    width: 1px;
+}
